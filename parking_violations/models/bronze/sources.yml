@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: parking_raw
+    database: PARKING
+    schema: RAW
+    tables:
+      - name: PARKING_VIOLATIONS_ISSUED_FISCAL_YEAR_2023_SAMPLE
+      - name: PARKING_VIOLATION_CODES
